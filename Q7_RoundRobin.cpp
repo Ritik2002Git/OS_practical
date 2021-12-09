@@ -31,7 +31,7 @@ void findWaitingTime(int processes[], int n,
 					t += quantum;
 
 					
-					rem_bt[i] -= quantum;
+					rem_bt[i] -= quantum; 
 				}
 
 			
