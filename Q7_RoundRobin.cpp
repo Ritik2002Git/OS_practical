@@ -68,7 +68,7 @@ void findTurnAroundTime(int processes[], int n,
 void findavgTime(int processes[], int n, int bt[],
 									int quantum)
 {
-	int wt[n], tat[n], total_wt = 0, total_tat = 0;
+	int wt[n], tat[n], total_wt = 0, total_tat = 0; 
 
 	
 	findWaitingTime(processes, n, bt, wt, quantum);
